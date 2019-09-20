@@ -65,4 +65,19 @@ The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 13.bandit12@bandit:/tmp/httb$ cat data9.bin
 The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
-14.
+14. bandit13@bandit:~$ cat sshkey.private
+bandit13@bandit:~$ ssh -i ./sshkey.private bandit14@localhost
+
+15. bandit14@bandit:~$ cd ./.ssh
+bandit14@bandit:~/.ssh$ ls
+authorized_keys
+bandit14@bandit:~/.ssh$ cat authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGSQ4TzdbZw5PshaEVz1o9ppCZAN2DO5cK/6mlkdr75u5KQ36CDS1yvsXDw0sZrn5TN5zasSDRaZ568HXcAihinQxnIROrjq36OT2m43BnAi31eAFm58a1kTBZsVbD+9Us3A5cF7hRZK0ZFbOA+kR5K/lNvVWMtkgF0amFMgrbYCbPpltOEyyIyfIlp8TAn9Pw9A7ebJL3W9QcS6g4wDOhQgPiQ3QwRnf5dqHIrQclWrrwqxU5t59cbW+8DcYAnb2TElqq9F+BiepmvJY3vDcIeM1Thz/YmSn6fwvRKfFo0D5ZgDuOI/JMXSKzy7MyVhDiXUvOH/z8ym+EJAXyvbZ3 rudy@localhost
+nc localhost 30000 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+Correct!
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+16.
+
+
