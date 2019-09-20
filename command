@@ -269,4 +269,9 @@ The authenticity of host 'localhost (127.0.0.1)' can't be established.
 ECDSA key fingerprint is SHA256:98UL0ZWr85496EtCRkKlo20X3OPnyPSB5tB5RPbhczc.
 Are you sure you want to continue connecting (yes/no)? yes
 
+18. bandit17@bandit:~$ diff passwords.new passwords.old
+42c42
+< kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+---
+> hlbSBPAWJmL6WFDb06gpTx1pPButblOA
 
