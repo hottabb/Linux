@@ -1,57 +1,32 @@
-0. ssh -l bandit0 -p 2220 bandit0@bandit.labs.overthewire.org
+0. ssh подключение к серверу по ssh 
 
-1. bandit0@bandit:~$ ls
-readme
-bandit0@bandit:~$ cat readme
+1. ls вывод файлов в каталоге
+cat просмотр содержимого файла
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
-2. bandit1@bandit:~$ cat ./-
+2. cat ./[путь] просмотр файла с нестандартным именем
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
-3.bandit2@bandit:~$ cat ./"spaces in this filename"
+3. cat ./["файл"] просмотр файла с пробелами в названии
 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 
-4. bandit3@bandit:~$ ls
-inhere
-bandit3@bandit:~$ cd inhere
-bandit3@bandit:~/inhere$ ls
-bandit3@bandit:~/inhere$ ls -la
-total 12
-drwxr-xr-x 2 root    root    4096 Oct 16  2018 .
-drwxr-xr-x 3 root    root    4096 Oct 16  2018 ..
--rw-r----- 1 bandit4 bandit3   33 Oct 16  2018 .hidden
-bandit3@bandit:~/inhere$ cat ./.hidden 
+4. cd переход в каталог
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
-5. bandit4@bandit:~/inhere$ file ~/inhere/*
-/home/bandit4/inhere/-file00: data
-/home/bandit4/inhere/-file01: data
-/home/bandit4/inhere/-file02: data
-/home/bandit4/inhere/-file03: data
-/home/bandit4/inhere/-file04: data
-/home/bandit4/inhere/-file05: data
-/home/bandit4/inhere/-file06: data
-/home/bandit4/inhere/-file07: ASCII text
-/home/bandit4/inhere/-file08: data
-/home/bandit4/inhere/-file09: data
-bandit4@bandit:~/inhere$ cat ./-file07
+5. file ~/[путь]/* просмотр типов файлов в каталоге
 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
-6. bandit5@bandit:~/inhere$ find  -size 1033c
-./maybehere07/.file2
-bandit5@bandit:~/inhere$ cd maybehere07
-bandit5@bandit:~/inhere/maybehere07$ cat ./.file2
+6. find  нахождение файлов в каталоге по критериям
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
-7. bandit6@bandit:/var/lib/dpkg/info$ find / -user bandit7 -group bandit6 -size 33c 
-bandit6@bandit:/var/lib/dpkg/info$ cd /var/lib/dpkg/info/
-bandit6@bandit:/var/lib/dpkg/info$ cat bandit7.password
+7.find [путь][критерии]
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
-8. bandit7@bandit:~$ cat data.txt | grep millionth
+8.grep поиск с определенным словом, выводит строку с этим словом
 millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
-9.bandit8@bandit:~$ cat data.txt | sort | uniq -u
+9.sort [параметры] сортировка по параметрам
+uniq [параметры] фильтр строк в файлах, есть ли повторяющиеся
 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 10. truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
