@@ -29,19 +29,20 @@ cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 uniq [параметры] фильтр строк в файлах, есть ли повторяющиеся
 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
-10. truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+10. strings производится поиск по строкам
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 
-11. bandit10@bandit:~$ cat data.txt | base64 -d
-The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+11. base64 кодирование\декодирование кода в читабельный вид
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 
-12. bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+12. tr преобразование символов, стоит в основе шифра цезаря
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
-13.bandit12@bandit:/tmp/httb$ cat data9.bin
-The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+13.mkdir создание подкаталога
+cp копирование файла
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
-14. bandit13@bandit:~$ cat sshkey.private
-bandit13@bandit:~$ ssh -i ./sshkey.private bandit14@localhost
+14. ssh -i [путь до ключа] юзер@машина присоединение к серверу с помощью ключа ssh
 
 15. bandit14@bandit:~$ cd ./.ssh
 bandit14@bandit:~/.ssh$ ls
