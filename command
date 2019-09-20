@@ -275,3 +275,16 @@ Are you sure you want to continue connecting (yes/no)? yes
 ---
 > hlbSBPAWJmL6WFDb06gpTx1pPButblOA
 
+19. engineer@engineer-tega:~$ ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+
+This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
+
+bandit18@bandit.labs.overthewire.org's password: 
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+20.bandit19@bandit:~$ ls
+bandit20-do
+bandit19@bandit:~$ file bandit20-do
+bandit20-do: setuid ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=8e941f24b8c5cd0af67b22b724c57e1ab92a92a1, not stripped
+bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
