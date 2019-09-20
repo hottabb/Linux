@@ -23,7 +23,7 @@ DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 8.grep поиск с определенным словом, выводит строку с этим словом
-millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
 9.sort [параметры] сортировка по параметрам
 uniq [параметры] фильтр строк в файлах, есть ли повторяющиеся
